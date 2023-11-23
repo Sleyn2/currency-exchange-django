@@ -1,0 +1,47 @@
+[
+    {
+      "model": "currencyexchanger.Currency",
+      "pk": 1,
+      "fields": {
+        "code": "USD",
+        "name": "United States dollar",
+        "is_base_currency": true
+      }
+    },
+    {
+      "model": "currencyexchanger.Currency",
+      "pk": 2,
+      "fields": {
+        "code": "EUR",
+        "name": "Euro",
+        "is_base_currency": false
+      }
+    },
+    {
+      "model": "currencyexchanger.Currency",
+      "pk": 3,
+      "fields": {
+        "code": "PLN",
+        "name": "Polish złoty",
+        "is_base_currency": false
+      }
+    },
+    {
+      "model": "currencyexchanger.Currency",
+      "pk": 4,
+      "fields": {
+        "code": "JPY",
+        "name": "Japanese yen",
+        "is_base_currency": false
+      }
+    },
+    {
+      "model": "currencyexchanger.Currency",
+      "pk": 5,
+      "fields": {
+        "code": "GBP",
+        "name": "Sterling",
+        "is_base_currency": false
+      }
+    }
+  ]
