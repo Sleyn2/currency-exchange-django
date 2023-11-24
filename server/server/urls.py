@@ -17,7 +17,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
-
 from currencyexchanger import views
 
 router = routers.DefaultRouter()
@@ -25,6 +24,8 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('currency/', views.showCurrencies)
+    path('loadstock/', views.loadstock),
+    path('currency/', views.getCurrency),
+    path('currency/<str:currency_1>/<str:currency_2>/', views.getCurrencyRate)
 ]
 

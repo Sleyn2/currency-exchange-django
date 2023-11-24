@@ -22,4 +22,4 @@ class CurrencyRate(models.Model):
     timestamp = models.DateTimeField()
 
     def __str__(self):
-        return self.currency_id
+        return str(self.currency_id) + ' at ' + str(self.timestamp)
